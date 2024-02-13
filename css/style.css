@@ -397,7 +397,7 @@ header {
     h1 {
         font-size: var(--font-size);
         color: var(--color-highlight);
-        margin-bottom: var(--spacing);
+        /* margin-bottom: var(--spacing); */
         font-weight: 500;
     }
     p {
