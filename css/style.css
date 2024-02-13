@@ -349,11 +349,11 @@ template {
 }
 
 :root {
-    --color-bg: #242120;
-    --color-highlight: #F8F6F5;
-    --color-default: #BAB6B1;
-    --color-dim: #797673;
-    --color-vdim: #494745;
+    --color-bg: hsl(210deg, 30%, 8%);
+    --color-highlight: hsl(210deg, 25%, 96%);
+    --color-default: hsl(210deg, 14%, 66%);
+    --color-dim: #4a4a63;
+    --color-vdim: #4a4a63;
     --font-sans: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
     --font-serif: Times,serif;
     --font-size: 16px;
@@ -398,6 +398,7 @@ header {
         font-size: var(--font-size);
         color: var(--color-highlight);
         margin-bottom: var(--spacing);
+        font-weight: 500;
     }
     p {
 
@@ -410,7 +411,7 @@ header {
 
 a {
     color: var(--color-default);
-    text-decoration-color: var(--color-dim);
+    text-decoration-color: var(--color-default);
     text-decoration-thickness: 1px;
     text-underline-offset: 0.25em;
 }
