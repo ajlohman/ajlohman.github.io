@@ -411,11 +411,15 @@ header {
 }
 
 a {
-    color: var(--color-link);
+    color: var(--color-default);
     text-decoration-color: var(--color-default);
     text-decoration-thickness: 1px;
     text-underline-offset: 0.25em;
+    transition: color .2s ease-in-out, text-decoration-color .2s ease-in-out;
 }
 a:hover {
-    color: var(--color-highlight);
+    color: var(--color-link);
+    text-decoration-color: var(--color-link);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25em;
 }
